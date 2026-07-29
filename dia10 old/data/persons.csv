@@ -1,0 +1,4 @@
+id,name,surname,isTeacher,birthdate
+1,Ana,García,true,1985-03-12
+2,Carlos,Pérez,false,2002-08-20
+3,Laura,Rojas,false,2001-11-05

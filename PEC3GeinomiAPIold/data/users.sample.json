@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Marianne Lucena",
+    "email": "admin@geinomi.com",
+    "password": "hashed_password_demo",
+    "role": "admin",
+    "isActive": true
+  },
+  {
+    "name": "Cliente Demo",
+    "email": "cliente@geinomi.com",
+    "password": "hashed_password_demo",
+    "role": "customer",
+    "isActive": true
+  },
+  {
+    "name": "Gestor Catálogo",
+    "email": "catalogo@geinomi.com",
+    "password": "hashed_password_demo",
+    "role": "editor",
+    "isActive": true
+  }
+]

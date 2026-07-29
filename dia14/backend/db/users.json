@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Juan",
+    "email": "lospalitos332@example.com",
+    "password": "$2b$10$DobbaO9XDMnGKF6x/k3Yi.7.10sj8mCpIl4DHjrNTc.QgPTehJYYi"
+  },
+  {
+    "id": 2,
+    "name": "Marianne",
+    "email": "marianne@example.com",
+    "password": "$2b$10$fjdpvKEOciNdbDoh8TzYwOO4gAXeZlXlvZl9/dKhaSyIPyR8zw0Ay"
+  },
+  {
+    "id": 3,
+    "name": "yeferson o perales",
+    "email": "lucena.lis14@gmail.com",
+    "password": "$2b$10$RYjMJ4Vbf4A590u8OQmRFOy9AJ//6gaYfOweF0IBr7RfSVx/TmU56"
+  },
+  {
+    "id": 4,
+    "name": "MARIANNE KATHERINE LUCENA LISCANO",
+    "email": "helenakartal2023@gmail.com",
+    "password": "$2b$10$cX7cO8s4W7V0N5oq0SYYm.agXPIdyQ6fG3hGOZtxwy.rhKMpepmAu"
+  }
+]

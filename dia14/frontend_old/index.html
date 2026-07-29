@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 14 - Autenticación JWT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Autenticación de usuarios</h1>
+        <nav class="menu">
+            <button class="menu-button active" type="button" data-target="register-section">
+                Registro
+            </button>
+
+            <button class="menu-button" type="button" data-target="login-section">
+                Iniciar sesión
+            </button>
+
+            <button class="menu-button" type="button" data-target="session-section">
+                Mi sesión
+            </button>
+
+            <button class="menu-button" type="button" data-target="tasks-section">
+                Mis tareas
+            </button>
+        </nav>
+        <section id="register-section" class="card view-section active">
+            <h2>Registro</h2>
+
+            <form id="register-form">
+                <label for="register-name">Nombre</label>
+                <input id="register-name" name="name" type="text" required>
+
+                <label for="register-email">Correo electrónico</label>
+                <input id="register-email" name="email" type="email" required>
+
+                <label for="register-password">Contraseña</label>
+                <input id="register-password" name="password" type="password" minlength="6" required>
+
+                <button type="submit">Registrarme</button>
+            </form>
+        </section>
+
+        <section id="login-section" class="card view-section">
+            <h2>Iniciar sesión</h2>
+
+            <form id="login-form">
+                <label for="login-email">Correo electrónico</label>
+                <input id="login-email" name="email" type="email" required>
+
+                <label for="login-password">Contraseña</label>
+                <input id="login-password" name="password" type="password" required>
+
+                <button type="submit">Ingresar</button>
+            </form>
+        </section>
+
+        <section id="session-section" class="card view-section">
+            <h2>Estado de la sesión</h2>
+
+            <p id="session-status">Comprobando sesión...</p>
+
+            <button id="verify-button" type="button">
+                Verificar sesión
+            </button>
+
+            <button id="logout-button" type="button">
+                Cerrar sesión
+            </button>
+        </section>
+
+        <section id="tasks-section" class="card view-section">
+            <h2>Mis tareas</h2>
+            <p id="task-help">Inicia sesión para administrar tus tareas.</p>
+
+            <form id="task-form">
+                <label for="task-title">Nueva tarea</label>
+                <div class="task-form-row">
+                    <input id="task-title" name="title" type="text" placeholder="Escribe una tarea" required>
+                    <button id="task-submit" type="submit">Agregar</button>
+                </div>
+            </form>
+
+            <ul id="task-list"></ul>
+        </section>
+
+        <p id="message" role="status"></p>
+    </main>
+</body>
+
+</html>

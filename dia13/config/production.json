@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "app": {
+    "name": "Aplicación en Producción",
+    "message": "Configuración cargada desde production.json"
+  }
+}

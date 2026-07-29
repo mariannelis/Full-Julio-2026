@@ -1,0 +1,64 @@
+@baseUrl = http://localhost:3000
+
+### Inicio
+GET {{baseUrl}}/
+
+### Información general de la API
+GET {{baseUrl}}/api
+
+### Obtener todos los productos
+GET {{baseUrl}}/api/products
+
+### Obtener producto por ID
+# Cambia PRODUCT_ID por un _id real obtenido en la petición anterior
+GET {{baseUrl}}/api/products/PRODUCT_ID
+
+### Crear producto
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Riñonera Trail Compact",
+  "description": "Riñonera ligera para rutas cortas de senderismo.",
+  "category": "Bolsas",
+  "price": 19.99,
+  "stock": 25,
+  "capacity": "3L",
+  "weight": "180 g",
+  "material": "Poliéster resistente",
+  "color": "Verde bosque",
+  "image": "https://example.com/images/rinonera-trail-compact.jpg",
+  "status": "available",
+  "featured": false,
+  "createdBy": "admin@geinomi.com"
+}
+
+### Actualizar producto
+# Cambia PRODUCT_ID por un _id real
+PUT {{baseUrl}}/api/products/PRODUCT_ID
+Content-Type: application/json
+
+{
+  "price": 21.99,
+  "stock": 30,
+  "featured": true
+}
+
+### Eliminar producto
+# Cambia PRODUCT_ID por un _id real
+DELETE {{baseUrl}}/api/products/PRODUCT_ID
+
+### Obtener usuarios
+GET {{baseUrl}}/api/users
+
+### Obtener categorías
+GET {{baseUrl}}/api/categories
+
+### Obtener pedidos
+GET {{baseUrl}}/api/orders
+
+### Obtener reseñas
+GET {{baseUrl}}/api/reviews
+
+### Probar error 404
+GET {{baseUrl}}/api/ruta-inexistente

@@ -1,0 +1,43 @@
+[
+  {
+    "userEmail": "cliente@geinomi.com",
+    "items": [
+      {
+        "productName": "Mochila Summit 35L",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productName": "Botella Térmica Trail 750ml",
+        "quantity": 2,
+        "unitPrice": 24.99
+      }
+    ],
+    "total": 139.97,
+    "status": "pending",
+    "shippingAddress": {
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "addressLine": "Dirección de prueba"
+    },
+    "paymentMethod": "card"
+  },
+  {
+    "userEmail": "cliente@geinomi.com",
+    "items": [
+      {
+        "productName": "Bolsa Expedition Duffel",
+        "quantity": 1,
+        "unitPrice": 74.5
+      }
+    ],
+    "total": 74.5,
+    "status": "completed",
+    "shippingAddress": {
+      "city": "Madrid",
+      "country": "España",
+      "addressLine": "Dirección de prueba"
+    },
+    "paymentMethod": "paypal"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "productName": "Mochila Summit 35L",
+    "userEmail": "cliente@geinomi.com",
+    "rating": 5,
+    "comment": "Mochila cómoda, resistente y con buena capacidad para rutas de montaña.",
+    "isPublished": true
+  },
+  {
+    "productName": "Botella Térmica Trail 750ml",
+    "userEmail": "cliente@geinomi.com",
+    "rating": 4,
+    "comment": "La botella mantiene bien la temperatura y tiene buen tamaño para excursiones.",
+    "isPublished": true
+  }
+]

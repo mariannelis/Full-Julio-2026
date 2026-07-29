@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mochila Summit 35L",
+    "description": "Mochila resistente para senderismo de media montaña, con compartimentos internos y soporte lumbar.",
+    "category": "Mochilas",
+    "price": 89.99,
+    "stock": 18,
+    "capacity": "35L",
+    "weight": "1.2 kg",
+    "material": "Nylon reciclado resistente al agua",
+    "color": "Verde bosque",
+    "image": "https://example.com/images/mochila-summit-35l.jpg",
+    "status": "available",
+    "featured": true,
+    "createdBy": "admin@geinomi.com"
+  },
+  {
+    "name": "Bolsa Expedition Duffel",
+    "description": "Bolsa de viaje outdoor con gran capacidad, asas reforzadas y tejido impermeable.",
+    "category": "Bolsas",
+    "price": 74.5,
+    "stock": 12,
+    "capacity": "50L",
+    "weight": "900 g",
+    "material": "Poliéster impermeable",
+    "color": "Negro carbón",
+    "image": "https://example.com/images/bolsa-expedition-duffel.jpg",
+    "status": "available",
+    "featured": false,
+    "createdBy": "catalogo@geinomi.com"
+  },
+  {
+    "name": "Botella Térmica Trail 750ml",
+    "description": "Botella térmica de acero inoxidable, ideal para rutas de senderismo y camping.",
+    "category": "Botellas térmicas",
+    "price": 24.99,
+    "stock": 35,
+    "capacity": "750 ml",
+    "weight": "380 g",
+    "material": "Acero inoxidable",
+    "color": "Beige arena",
+    "image": "https://example.com/images/botella-trail-750ml.jpg",
+    "status": "available",
+    "featured": true,
+    "createdBy": "admin@geinomi.com"
+  },
+  {
+    "name": "Kit Camping Compacto",
+    "description": "Set básico para camping con utensilios ligeros, bolsa de transporte y accesorios esenciales.",
+    "category": "Camping",
+    "price": 39.9,
+    "stock": 20,
+    "capacity": "Kit compacto",
+    "weight": "650 g",
+    "material": "Aluminio y poliéster",
+    "color": "Naranja aventura",
+    "image": "https://example.com/images/kit-camping-compacto.jpg",
+    "status": "available",
+    "featured": false,
+    "createdBy": "catalogo@geinomi.com"
+  }
+]

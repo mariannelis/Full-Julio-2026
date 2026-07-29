@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mochilas",
+    "slug": "mochilas",
+    "description": "Mochilas técnicas para senderismo, trekking y viajes outdoor.",
+    "isActive": true
+  },
+  {
+    "name": "Bolsas",
+    "slug": "bolsas",
+    "description": "Bolsas resistentes para aventura, deporte y uso diario.",
+    "isActive": true
+  },
+  {
+    "name": "Camping",
+    "slug": "camping",
+    "description": "Accesorios útiles para camping y actividades al aire libre.",
+    "isActive": true
+  },
+  {
+    "name": "Botellas térmicas",
+    "slug": "botellas-termicas",
+    "description": "Botellas y termos para mantener bebidas frías o calientes.",
+    "isActive": true
+  }
+]
